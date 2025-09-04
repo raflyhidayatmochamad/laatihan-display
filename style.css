@@ -33,10 +33,14 @@ nav a {
   margin-right: 15px;
   color: brown;
   font-weight: bold;
+   overflow: hidden;
+  
+  font-family: Arial;
 }
 
 nav a:hover {
   color: darkred;
+
 }
 
 /* Banner gambar */
@@ -65,4 +69,78 @@ nav a:hover {
 .content p {
   line-height: 1.6;
   text-align: justify;
+}
+
+h2.bold{
+    text-align: center;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card Style */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
 }

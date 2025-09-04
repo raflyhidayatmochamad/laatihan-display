@@ -1,0 +1,27 @@
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(243, 160, 59);
+}
+
+.three {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(77, 45, 6);
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  overflow: scroll;
+}
