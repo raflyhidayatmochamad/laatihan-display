@@ -1,0 +1,56 @@
+ /* Header hitam tipis  */
+.header-top {
+  width: 50%;
+  height: 20px;
+  background: #000;
+  margin: auto;
+}
+
+/* Header biru muda  */
+.header {
+  width: 50%;
+  height: 100px;
+  background: #99c2e0;
+  margin: auto;
+}
+
+/* Container utama  */
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+}
+
+/* Kolom kiri  */
+.kiri {
+  width: 20%;
+  height: 500px;
+  background-color: #e0e0e0;
+  float: left;
+}
+
+ /* Kolom tengah  */
+.tengah {
+  width: 50%;
+  height: 500px;
+  background-color: #fff0cc;
+  float: left;
+}
+
+ /* Kolom kanan  */
+.kanan {
+  width: 30%;
+  height: 500px;
+  background-color: #e0e0e0;
+  float: left;
+}
+
+ /* Footer hitam tipis  */
+.footer {
+  width: 50%;
+  height: 20px;
+  background: #000;
+  margin: auto;
+  clear: both;
+}
